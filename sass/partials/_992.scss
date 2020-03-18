@@ -1,0 +1,54 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-pourquoi-passer-diplome,
+  .section-visi-school-premiere {
+    .img-visi-premiere,
+    .img-pourquoi-diplome {
+      position: relative;
+      right: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+  .section-offres-emploi-alternance {
+    .offre-emploi {
+      min-height: 270px;
+    }
+  }
+  footer {
+    .liste-menu-footer {
+      margin-top: 80px;
+    }
+    .footer-menu-foot {
+      margin-top: 20px;
+    }
+    .footer-menu {
+      li {
+        a {
+          font-size: 22px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+
+  .products__point {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    &__text {
+      font-size: 20px;
+      text-align: left;
+    }
+    &__icon-container {
+      flex: 0 0 43px;
+      margin: 0 20px 0 0;
+      height: auto;
+    }
+    &__icon {
+      margin: 0;
+    }
+    &:not(:last-child) {
+      border-right: none;
+    }
+  }
+}

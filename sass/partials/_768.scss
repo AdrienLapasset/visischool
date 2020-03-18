@@ -1,0 +1,62 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  #home {
+    h1 {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+  .section-nos-formations {
+    h3 {
+      margin-top: 80px;
+      font-size: 30px;
+      line-height: 30px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .section-nos-thematiques {
+    background: no-repeat url("../images/background-thematique.jpg");
+    display: block;
+    min-height: 940px;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    margin: auto;
+  }
+  .section-offres-emploi-alternance {
+    .offre-emploi {
+      min-height: 270px;
+    }
+  }
+  .section-temoignages {
+    .background-photo-temoignage {
+      margin: auto;
+      float: right;
+    }
+  }
+  .products__filtres {
+    height: 90px;
+  }
+
+  .products__point {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    &__text {
+      font-size: 20px;
+      text-align: left;
+    }
+    &__icon-container {
+      flex: 0 0 43px;
+      margin: 0 20px 0 0;
+      height: auto;
+    }
+    &__icon {
+      margin: 0;
+    }
+    &:not(:last-child) {
+      border-right: none;
+    }
+  }
+}

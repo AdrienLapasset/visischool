@@ -1,0 +1,42 @@
+.chemin {
+  color: white;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  .home-icon {
+    height: 15px;
+    margin-right: 7px;
+  }
+}
+
+.button {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: "BebasNeue";
+  display: flex;
+  align-items: center;
+  height: 35px;
+  padding: 0 10px;
+  border: none;
+
+  &--primary {
+    color: $base-color;
+    &:hover {
+      background: #fff;
+    }
+  }
+}
+
+.heading {
+  font-family: "BebasNeue";
+  color: $base-color;
+  &--one {
+    font-size: 55px;
+    color: white;
+    line-height: 45px;
+  }
+}
+
+p {
+  margin: 0;
+}

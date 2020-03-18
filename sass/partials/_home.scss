@@ -1,0 +1,667 @@
+.btn {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 16px;
+  font-family: "BebasNeue";
+  border-radius: 0;
+  border: 0;
+}
+.btn-telecharger-borchure-une-ligne {
+  color: #fff;
+  background: #242f6d;
+  color: #fff;
+  span {
+    margin-top: 6px;
+    float: right;
+  }
+  &:hover {
+    color: #fff;
+    background: #293788;
+  }
+}
+.btn-candidature {
+  margin-top: 10px;
+}
+.btn-candidature-en-ligne-une-ligne {
+  color: #fff;
+  background: #ff2e63;
+  color: #fff;
+  span {
+    margin-top: 6px;
+    float: right;
+  }
+  &:hover {
+    color: #fff;
+    background: #ff1b55;
+  }
+}
+.btn-en-savoir-plus,
+.btn-deposer-sa-candidature {
+  background: transparent;
+  color: #242f6d;
+  font-size: 17px;
+  border: 1px solid #242f6d;
+  font-family: "BebasNeue";
+  position: absolute;
+  bottom: 30px;
+  &:hover {
+    color: #242f6d;
+    background: #fff;
+    border: 1px solid #fff;
+  }
+  span {
+    float: right;
+    display: inline-block;
+    padding-top: 2px;
+  }
+}
+.btn-inscrire-go {
+  color: #fff;
+  border: 1px solid #fff;
+  font-family: "BebasNeue";
+  position: absolute;
+  bottom: 50px;
+  &:hover {
+    color: #fff;
+    background: #ff1b55;
+  }
+  span {
+    float: right;
+    display: inline-block;
+    padding-top: 5px;
+  }
+}
+.btn-deposer-sa-candidature {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  margin-top: 10px;
+  padding: 10px 15px;
+  &:hover {
+    color: #fff;
+    background: #242f6d;
+    .icon-deposer-sa-candidature-blue {
+      background: no-repeat url("../images/icon-deposer-sa-candidature-white.png");
+    }
+  }
+}
+.btn-savoir-plus-white {
+  color: #fff;
+  border: 1px solid #fff;
+  &:hover {
+    .icon-esp-white {
+      background: no-repeat url("../images/icon-en-savoir-plus-blue.png");
+    }
+  }
+}
+.btn-toutes-nos-offres,
+.btn-inscrire-session,
+.btn-en-savoir-plus-pink {
+  margin: 0 auto 30px auto;
+  text-align: center;
+  display: inline-block;
+  background: #ff2e63;
+  color: #fff;
+  &:hover {
+    color: #fff;
+    background: #ff1b55;
+  }
+  span {
+    float: right;
+    display: inline-block;
+    padding-top: 4px;
+  }
+}
+.btn-en-savoir-plus-pink {
+  span {
+    padding-top: 6px;
+  }
+}
+.btn-je-depose-mon-annonce {
+  margin: 0 auto 30px auto;
+  text-align: center;
+  display: inline-block;
+  background: #ffb129;
+  color: #242f6d;
+  height: 38px;
+  &:hover {
+    color: #242f6d;
+    background: #ffa200;
+  }
+  span {
+    float: right;
+    display: inline-block;
+    padding-top: 6px;
+  }
+}
+
+/* icon ---> */
+.icon-deposer-sa-candidature-blue {
+  width: 18px;
+  height: 18px;
+  background: no-repeat url("../images/icon-deposer-sa-candidature-blue.png");
+  display: inline-block;
+  position: relative;
+  top: 0;
+  margin-right: 12px;
+  float: left;
+}
+.icon-en-savoir-plus-blue {
+  width: 18px;
+  height: 20px;
+  background: no-repeat url("../images/icon-en-savoir-plus-blue.png");
+  display: inline-block;
+  position: relative;
+  top: 0;
+  margin-right: 12px;
+  float: left;
+}
+.icon-esp-white {
+  background: no-repeat url("../images/icon-en-savoir-plus-white.png");
+}
+.icon-telecharger-brochure {
+  width: 27px;
+  height: 27px;
+  background: no-repeat url("../images/icon-telecharger-brochure.png");
+  display: inline-block;
+  position: relative;
+  top: 0;
+  margin-right: 12px;
+  float: left;
+}
+.icon-candidature-en-ligne {
+  width: 25px;
+  height: 25px;
+  background: no-repeat url("../images/icon-candidature-en-ligne.png");
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  margin-right: 12px;
+  float: left;
+}
+.icon-toutes-nos-offres-emploi {
+  width: 21px;
+  height: 22px;
+  background: no-repeat url("../images/icon-toutes-nos-offres-emploi.png");
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  margin-right: 12px;
+  float: left;
+}
+.icon-calendar {
+  width: 29px;
+  height: 30px;
+  background: no-repeat url("../images/icon-calendar.png");
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  margin-right: 12px;
+  float: left;
+}
+.icon-calendar {
+  width: 20px;
+  height: 22px;
+  background: no-repeat url("../images/icon-inscrire-session.png");
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  margin-right: 12px;
+  float: left;
+}
+.icon-go {
+  width: 26px;
+  height: 26px;
+  background: no-repeat url("../images/icon-go-white.png");
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  margin-right: 12px;
+  float: left;
+}
+.icon-savoir-plus-white {
+  width: 26px;
+  height: 26px;
+  background: no-repeat url("../images/icon-savoir-plus-white.png");
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  margin-right: 12px;
+  float: left;
+}
+.icon-deposer-une-annonce {
+  width: 23px;
+  height: 23px;
+  background: no-repeat url("../images/icon-deposer-une-annonce.png");
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin-right: 12px;
+  float: left;
+}
+
+/* END BOUTONS & ICONS ------------------*/
+
+/* hn,p ect  ------------- -------------*/
+
+#home {
+  /* START BOUTONS & ICONS ------------------*/
+  /* btn ---> */
+  /* ------------- -------------  -------------*/
+
+  h1,
+  h2,
+  h3 {
+    color: #242f6d;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 55px;
+    font-family: "BebasNeue";
+    // padding-top: 111px;
+
+    &.white {
+      color: white;
+    }
+  }
+  h2 {
+    font-size: 55px;
+    line-height: 55px;
+    font-family: "BebasNeue";
+    text-align: center;
+  }
+  h3 {
+    font-size: 45px;
+    line-height: 45px;
+    font-family: "BebasNeue";
+    text-align: center;
+  }
+  /* START HOMEPAGE ------------------*/
+  #home {
+    h1 {
+      padding-top: 111px;
+    }
+  }
+  /* SECTION ECOLE EN LIGNE ECOLE EN ALTERNANCE */
+  .section-ecole-en-ligne-en-alternance {
+    background: no-repeat url("../images/section-ecole-en-ligne-en-alternance.jpg");
+    display: block;
+    min-height: 784px;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    margin: auto;
+    p {
+      padding-top: 10px;
+      color: #242f6d;
+      font-size: 20px;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+
+  /* SECTION NOS FORMATIONS */
+  .section-nos-formations {
+    background: no-repeat url("../images/background-nos-formations.jpg");
+    display: block;
+    min-height: 465px;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    margin: auto;
+    h2 {
+      margin: 0 0 35px 0;
+    }
+    h3 {
+      text-align: left;
+      margin-top: 100px;
+    }
+    p {
+      padding-top: 10px;
+      color: #242f6d;
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+    }
+    .bloc-white {
+      position: absolute;
+      background: #fff;
+      top: 0;
+      color: #242f6d;
+      line-height: 45px;
+      font-family: "BebasNeue";
+      padding: 20px 18px 5px 18px;
+      .level {
+        font-size: 25px;
+        line-height: 100%;
+      }
+      span {
+        font-size: 35px;
+        line-height: 100%;
+      }
+    }
+    .formation-bloc-titre-certifie {
+      background: no-repeat url("../images/background-formation-certifie.jpg");
+      display: block;
+      background-size: cover;
+      min-height: 390px;
+      padding: 40px;
+    }
+    .formation-bloc-titre-bachelor {
+      background: no-repeat url("../images/background-formation-bachelor.jpg");
+      display: block;
+      background-size: cover;
+      min-height: 390px;
+      margin: 0 5px;
+      padding: 40px;
+    }
+    .formation-bloc-titre-mba-master {
+      background: no-repeat url("../images/background-formation-mba-master.jpg");
+      display: block;
+      background-size: cover;
+      min-height: 390px;
+      padding: 40px;
+      h3,
+      p {
+        color: #fff;
+      }
+    }
+  }
+
+  /* SECTION NOS THEMATIQUES */
+  .section-nos-thematiques {
+    background: no-repeat url("../images/background-thematique.jpg");
+    display: block;
+    min-height: 522px;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    margin: auto;
+    h2 {
+      padding: 47px 0 30px 0;
+    }
+    img {
+      margin: 30px auto auto auto;
+      display: block;
+    }
+    .texte {
+      color: #242f6d;
+      font-size: 26px;
+      line-height: 26px;
+      font-family: "BebasNeue";
+      text-align: center;
+      position: relative;
+      top: -15px;
+      left: -5px;
+    }
+    .border-right {
+      border-right: 1px solid #000000 !important;
+      min-height: 215px;
+    }
+  }
+
+  /* SECTION OFFRES D'EMPLOI EN ALTERNANCE */
+  .section-offres-emploi-alternance {
+    background-color: #ecedf1;
+    background: no-repeat url("../images/background-offres-emploi-en-alternance.jpg");
+    display: block;
+    min-height: 754px;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    margin: auto;
+    p {
+      text-align: center;
+      color: #242f6d;
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+    }
+    .offre-emploi {
+      background: #fff;
+      padding: 30px 42px 30px 42px;
+      min-height: 230px;
+      margin-bottom: 25px;
+      p {
+        text-align: left;
+        padding-top: 25px;
+        font-weight: bold;
+        font-size: 17px;
+      }
+      .tag-offre {
+        background: #242f6d;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        padding: 9px 11px;
+      }
+      .ville-et-btn {
+        position: absolute;
+        bottom: 40px;
+        .ville {
+          font-size: 14px;
+          color: #999999;
+        }
+      }
+    }
+  }
+
+  /* SECTION ILS RECRUTENT EN ALTERNANCE */
+  .section-ils-recrutent-alternance {
+    background-color: #ecedf1;
+    img {
+      margin-top: 20px;
+    }
+  }
+  /* SECTION DECOUVREZ VISISCHOOL */
+  .section-decouvrez-visischool {
+    background-color: #ecedf1;
+    background: no-repeat url("../images/background-decouvrez-visischool.jpg");
+    display: block;
+    min-height: 593px;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    margin: auto;
+    .separator-white {
+      display: none;
+    }
+    .bloc-decouvrez-visischool {
+      margin-top: 85px;
+      background: no-repeat url("../images/bloc-decouvrez-visischool.jpg");
+      min-height: 452px;
+      background-size: cover;
+      max-width: 100%;
+      background-position: center;
+      padding: 45px 80px 45px 45px;
+      h3,
+      p {
+        text-align: left;
+        color: #fff;
+      }
+      p {
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+      }
+      .p-decouvrez {
+        padding: 20px 0 30px 0;
+      }
+      .bloc-date-decouvrez {
+        min-height: 353px;
+        border: 1px solid #fff;
+
+        .row {
+          min-height: 353px;
+          .border-right-perso {
+            border-right: 1px solid #fff !important;
+          }
+          .bloc-calendar {
+            padding: 40px 50px;
+            .calendar {
+              width: 100%;
+              display: inline-block;
+            }
+            h4 {
+              color: #fff;
+              font-family: "BebasNeue";
+              font-size: 26px;
+              line-height: 26px;
+              margin: 10px 0 0 0;
+              padding: 0;
+            }
+            .heure {
+              font-size: 12px;
+              font-family: "Roboto", sans-serif;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* SECTION POURQUOI PASSER SON DIPLOME & VISI SCHOOL PREMIERE */
+  .section-pourquoi-passer-diplome {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .section-visi-school-premiere {
+    margin-bottom: 40px;
+  }
+  .section-pourquoi-passer-diplome,
+  .section-visi-school-premiere {
+    .img-pourquoi-diplome {
+      position: relative;
+      left: -150px;
+    }
+    .img-visi-premiere {
+      position: relative;
+      right: -150px;
+    }
+    h3 {
+      text-align: left;
+      padding-top: 110px;
+    }
+    p {
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      color: #242f6d;
+      padding: 30px 0;
+    }
+  }
+  .separator-temoignages {
+    background: no-repeat url("../images/barre-header-temoignage.jpg");
+    display: block;
+    min-height: 88px;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    margin: auto;
+  }
+  /* SECTION TEMOIGNAGES */
+  .section-temoignages {
+    background: #ff2e63;
+    h2 {
+      color: #fff;
+      margin: 0 0 60px 0;
+    }
+    p {
+      color: #fff;
+      font-family: "BebasNeue";
+      font-size: 24px;
+      line-height: 24px;
+      padding: 0 0 0 10px;
+      margin: 0 0 5px 0;
+    }
+    .prenom-nom {
+      font-family: "BebasNeueRegular";
+      color: #fff;
+      padding: 0 0 0 10px;
+      text-transform: uppercase;
+      font-size: 20px;
+      line-height: 20px;
+    }
+    .background-photo-temoignage {
+      background: no-repeat url("../images/background-photo-temoignage.jpg");
+      min-height: 187px;
+      background-size: cover;
+      width: 189px;
+      background-position: center;
+    }
+  }
+  /* SECTION VOUS ETES UNE ENTREPRISE ? */
+  .section-vous-etes-une-entreprise {
+    background: no-repeat url("../images/background-vous-etes-une-entreprise.jpg");
+    display: block;
+    min-height: 631px;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    margin: auto;
+    .btn-1,
+    .btn-2 {
+      float: left;
+      display: inline-block;
+    }
+    .btn-2 {
+      margin-left: 10px;
+    }
+    h2 {
+      text-align: left;
+      color: #fff;
+      margin: 187px 0 20px 0;
+    }
+    h4 {
+      margin: 187px 0 5px 0;
+      font-family: "BebasNeue";
+      font-size: 30px;
+      line-height: 30px;
+      color: #fff;
+    }
+    p {
+      color: #fff;
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+    }
+    .bloc-contact {
+      background: #d2d4df;
+      margin-bottom: 10px;
+      h5 {
+        margin: 5px 0 0 0;
+      }
+      .conseiller-tel {
+        margin: 0 0 5px 0;
+        padding: 0;
+      }
+      h5,
+      .conseiller-tel {
+        color: #242f6d;
+        font-family: "BebasNeue";
+        font-size: 25px;
+        line-height: 25px;
+      }
+      p {
+        font-size: 18px;
+        color: #242f6d;
+        font-family: "BebasNeueRegular";
+        line-height: 18px;
+        padding: 0;
+        margin: 0 10px 0 0;
+      }
+      .conseiller-img {
+        margin: 15px;
+      }
+      .conseiller-tel {
+        a {
+          color: #242f6d;
+          &:hover {
+            color: #242f6d;
+            text-decoration: none;
+          }
+        }
+      }
+      img {
+        -webkit-border-radius: 90px;
+        -moz-border-radius: 90px;
+        border-radius: 90px;
+      }
+    }
+  }
+}

@@ -1,0 +1,225 @@
+@media (min-width: 1200px) and (max-width: 1620px) {
+  .section-pourquoi-passer-diplome,
+  .section-visi-school-premiere {
+    .img-visi-premiere,
+    .img-pourquoi-diplome {
+      position: relative;
+      right: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 992px) {
+  header {
+    #navbarTogglergo {
+      background: #fff;
+      z-index: 100;
+      width: 222px;
+      position: absolute;
+      right: 31px;
+      top: 50px;
+      border: 1px solid #ffe1ea;
+    }
+    .navbar-light {
+      .navbar-nav {
+        .nav-link {
+          padding: 3px 0 0 10px;
+          margin: 5px 20px 0 15px;
+          color: #242f6d;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  .section-nos-thematiques {
+    .thematique-bloc {
+      margin: auto;
+      display: block;
+      text-align: center;
+      max-width: 300px;
+      .texte {
+        text-align: center;
+        position: absolute;
+        top: 55px;
+        left: 0;
+        right: 0;
+        max-width: 200px;
+        margin: auto;
+      }
+    }
+    .border-right {
+      border-right: 0 !important;
+      min-height: auto;
+    }
+    img {
+      margin: 0;
+      display: block;
+    }
+  }
+  .section-decouvrez-visischool {
+    background: no-repeat url("../images/background-decouvrez-visischool-mob.jpg");
+    min-height: 938px;
+    background-size: cover;
+    .separator-white {
+      display: block;
+    }
+    .bloc-decouvrez-visischool {
+      padding: 30px 20px;
+      .bloc-date-decouvrez {
+        .btn-inscrire-go {
+          position: unset;
+        }
+        .row {
+          .border-right-perso {
+            border-right: 0 !important;
+          }
+        }
+      }
+    }
+  }
+  .border-bottom-perso {
+    border-bottom: 1px solid #fff;
+  }
+  .separator-temoignages {
+    background: no-repeat url("../images/barre-header-temoignage-mob.jpg");
+    min-height: 63px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .section-nos-thematiques {
+    background: no-repeat url("../images/background-thematique-mob.jpg");
+    min-height: 810px;
+    background-size: cover;
+  }
+  .section-pourquoi-passer-diplome,
+  .section-visi-school-premiere {
+    h3 {
+      padding: 0;
+    }
+    .img-pourquoi-diplome,
+    .img-visi-premiere {
+      position: relative;
+      left: 0;
+      right: 0;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  footer {
+    .liste-menu-footer {
+      margin-top: 80px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 37px;
+    // line-height: 37px;
+  }
+  #home {
+    h1 {
+      padding-top: 32px;
+    }
+  }
+  header {
+    .navbar {
+      padding: 0;
+    }
+  }
+  .section-ecole-en-ligne-en-alternance {
+    background-position: 44% 100%;
+    p {
+      padding-top: 0;
+      color: #242f6d;
+      font-size: 16px;
+      line-height: 19px;
+    }
+    .btn-telecharger-notre-brochure,
+    .btn-candidature {
+      width: 160px;
+      span {
+        text-align: left;
+        width: 110px;
+        float: left;
+      }
+      .btn-telecharger-borchure-une-ligne,
+      .btn-candidature-en-ligne-une-ligne {
+        width: 160px;
+        padding: 2px 2px 5px 2px;
+      }
+    }
+    .icon-telecharger-brochure {
+      top: 6px;
+      left: 4px;
+    }
+    .icon-candidature-en-ligne {
+      top: 6px;
+      left: 5px;
+    }
+    .btn-candidature {
+      span {
+        width: 100px;
+      }
+    }
+  }
+  .section-vous-etes-une-entreprise {
+    background: no-repeat url("../images/background-vous-etes-une-entreprise-mob.jpg");
+    display: block;
+    min-height: 1016px;
+    background-size: cover;
+    .btn-en-savoir-plus-pink {
+      margin: 0 auto 10px auto;
+    }
+    h2 {
+      text-align: center;
+      margin: 55px 0 20px 0;
+    }
+    h4 {
+      margin: 0 0 5px 0;
+    }
+    .btn-1,
+    .btn-2 {
+      margin-left: 0;
+      width: 100%;
+    }
+    .bloc-contact {
+      h5 {
+        margin: 10px 0 0 0;
+      }
+      .conseiller-img {
+        margin: 10px;
+      }
+    }
+  }
+
+  .section-nos-formations {
+    background: no-repeat url("../images/background-nos-formations-mob.jpg");
+    min-height: 973px;
+    background-size: cover;
+    .p-0 {
+      padding-right: 15px !important;
+      padding-left: 15px !important;
+      padding-bottom: 10px !important;
+    }
+    .formation-bloc-titre-certifie {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .formation-bloc-titre-bachelor {
+      margin: 0;
+    }
+  }
+}
+@media (max-width: 330px) {
+  .section-ecole-en-ligne-en-alternance {
+    background-position: left;
+  }
+}

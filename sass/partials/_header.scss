@@ -1,0 +1,203 @@
+header {
+	padding-top:10px;
+	.icon-social 
+	{
+		margin-right: 18px;
+		padding-top:3px;
+		float:right;
+		a{
+			width: 34px;
+			height: 34px;
+			display: inline-block;
+			float: right;
+			margin: 0px 3px;
+			.icon-instagram,
+			.icon-facebook,
+			.icon-linkedin {
+				width: 34px;
+				height: 34px;
+				background:#242f6d;
+				color:#fff;
+				display:inline-block;
+				@include border-radius(5px);
+				.fa-instagram {
+					font-size: 26px;
+					top: 4px;
+					left: 5px;
+					position: relative;
+				}
+				.fa-facebook-f {
+					font-size: 18px;
+					top: 8px;
+					left: 11px;
+					position: relative;
+				}
+				.fa-linkedin-in {
+					font-size: 18px;
+					top: 9px;
+					left: 10px;
+					position: relative;
+				}
+			}
+			&:hover {
+				.icon-instagram
+				{
+					background:#2C6A93;
+				}
+				.icon-facebook
+				{
+					background:#3B5998;
+				}
+				.icon-linkedin {
+					background:#04669A;
+				}
+			}
+		}
+	}
+	.nous-contacter {
+		margin-right:5px;
+		width: 143px;
+		float: right;
+		padding-top:5px;
+		.nous-contacter-tel {
+
+			text-transform: uppercase;
+			font-size: 20px;
+			line-height: 16px;
+			font-family: 'BebasNeue';
+			border-radius: 0;
+			a {
+				color:#242f6d;
+				&:hover {
+					text-decoration: none;
+					color: #4657b3;
+				}
+			}
+		}
+	}
+	.telecharger-et-candidature {
+		float:right;
+		ul {
+			padding:0;
+			margin-bottom: 0.5rem;
+			li {
+				list-style: none;
+				display: inline-block;
+			}
+		}
+		.btn-telecharger-brochure {
+			background:#242f6d;
+			color:#fff;
+			padding: 5px 10px 3px 10px;
+			margin-right: 6px;
+			span {
+				float:right;
+				text-align:left;
+			}
+			&:hover {
+				background: #293788;
+			}
+			.icon-telecharger-brochure {
+				top: 2px;
+				margin-right: 12px;
+				float:left;
+			}
+		}
+		.btn-candidature-en-ligne {
+			background:#ff2e63;
+			color:#fff;
+			padding: 5px 10px 3px 10px;
+			width: 141px;
+			span {
+				float:right;
+				text-align:left;
+			}
+			&:hover {
+				background: #ff1b55;
+			}
+			.icon-candidature-en-ligne {
+				top: 2px;
+				margin-right: 12px;
+			}
+		}
+	}
+	nav {
+		float:right;
+		margin:0;
+		
+		ul {
+			list-style: none;
+			margin:0;
+			padding:0;
+			float: left;
+			li {
+				display:inline-block;
+				float: left;
+				a {
+					color:#242f6d;
+					font-size: 22px;
+					font-family: 'BebasNeue';
+					padding:7px 10px 7px 10px;
+
+					&:hover {
+						text-decoration: none;
+						background:#cccccc;
+						color:#242f6d;
+					}
+				}
+			}
+			.btn-entreprise {
+				margin-left:10px;
+				color:#242f6d;
+				background:#ffb129;
+				padding: 5px 10px 3px 10px;
+				min-height: 42px;
+				min-width: 141px;
+				border:0;
+				outline:0;
+				font-size: 22px;
+
+				&:hover {
+					color:#242f6d;
+					background:#ffa200;
+				}
+				span {
+					float:right;
+					text-align:left;
+					padding-top: 10px;
+				}
+				.icon-entreprise {
+					width: 23px;
+					height: 15px;
+					background: no-repeat url("../images/icon-entreprise.png");
+					display: inline-block;
+					position: relative;
+					top: 9px;
+					margin-right: 12px;
+					float:left;
+				}
+			}
+		}
+		.nav-1 {
+			background: #e9eaef;
+			padding: 6px 0 3px 0;
+			li {
+				a:hover {
+					text-decoration: none;
+					background: #cccccc;
+					color: #242f6d;
+					padding:9px 10px 6px 10px;
+				}
+			}
+		}
+	}
+	.navbar-light .navbar-toggler-icon {
+		background-image: url("../images/menu.svg");
+		font-size: 24px;
+	}
+	.navbar-light .navbar-toggler {
+		color: rgba(255, 255, 255, 0.5);
+		border-color: rgba(255, 255, 255, 0.1);
+		outline:none;
+	}
+}

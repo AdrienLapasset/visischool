@@ -1,0 +1,73 @@
+@media (max-width: 575px) {
+  header {
+    .navbar {
+      top: -8px;
+    }
+  }
+  .section-ecole-en-ligne-en-alternance {
+    background: no-repeat url("../images/section-ecole-en-ligne-en-alternance-mob.jpg");
+    min-height: 513px;
+    background-position: 44% 100%;
+  }
+  .section-offres-emploi-alternance {
+    .offre-emploi {
+      min-height: 240px;
+      .tag-offre {
+        padding: 5px 5px;
+      }
+      p {
+        text-align: left;
+        padding-top: 15px;
+        font-weight: bold;
+        font-size: 17px;
+      }
+    }
+  }
+  .section-temoignages {
+    .background-photo-temoignage {
+      background: no-repeat url("../images/background-photo-temoignage.jpg");
+      min-height: 93.5px;
+      background-size: cover;
+      width: 93.5px;
+      background-position: center;
+      margin: auto;
+      .img-fluid {
+        max-width: 90%;
+        height: auto;
+      }
+    }
+    .temoignage-padding {
+      padding-bottom: 50px;
+    }
+  }
+  .products__filtres {
+    height: 90px;
+  }
+  .product-card__info {
+    border-left: none;
+    border-top: 1px solid $base-color;
+  }
+  .product-card__profile {
+    margin: 0 0 0 auto;
+  }
+  .products__point {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    &__text {
+      font-size: 20px;
+      text-align: left;
+    }
+    &__icon-container {
+      flex: 0 0 43px;
+      margin: 0 20px 0 0;
+      height: auto;
+    }
+    &__icon {
+      margin: 0;
+    }
+    &:not(:last-child) {
+      border-right: none;
+    }
+  }
+}

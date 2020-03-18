@@ -1,0 +1,88 @@
+.product-card {
+  background-color: $block-bg;
+  margin-bottom: 30px;
+  &__degree {
+    font-family: "BebasNeue";
+    font-size: 20px;
+  }
+  &__title {
+    font-size: 32px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  &__profile {
+    margin: 0 auto;
+    border: 3px solid $green;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: right;
+    margin-bottom: 10px;
+  }
+  &__description {
+    color: $base-color;
+    font-size: 14px;
+    font-family: "roboto", sans-serif;
+    margin-bottom: 1em;
+  }
+  &__info {
+    flex: 1 0 200px;
+    border-left: 1px solid $base-color;
+    &__title {
+      font-size: 16px;
+      margin-bottom: 0;
+      line-height: 10px;
+    }
+    &__text {
+      color: $base-color;
+      font-size: 12px;
+      font-family: "roboto", sans-serif;
+      margin-bottom: 10px;
+    }
+  }
+
+  // Card color
+  &.green {
+    .product-card__degree {
+      color: $green;
+    }
+    .product-card__profile {
+      border-color: $green;
+    }
+    .button {
+      background-color: $green;
+      &:hover {
+        background-color: white;
+      }
+    }
+  }
+  &.pink {
+    .product-card__degree {
+      color: $pink;
+    }
+    .product-card__profile {
+      border-color: $pink;
+    }
+    .button {
+      background-color: $pink;
+      &:hover {
+        background-color: white;
+      }
+    }
+  }
+  &.yellow {
+    .product-card__degree {
+      color: $yellow;
+    }
+    .product-card__profile {
+      border-color: $yellow;
+    }
+    .button {
+      background-color: $yellow;
+      &:hover {
+        background-color: white;
+      }
+    }
+  }
+}
