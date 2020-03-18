@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Bebas-Neue-Book";
+  src: url("/fonts/Bebas-Neue-Book.ttf.woff") format("woff"), url("/fonts/Bebas-Neue-Book.ttf.svg#Bebas-Neue-Book") format("svg"), url("/fonts/Bebas-Neue-Book.ttf.eot"), url("/fonts/Bebas-Neue-Book.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .chemin {
   color: white;
   display: -webkit-box;
@@ -1084,13 +1091,13 @@ header .navbar-light .navbar-toggler {
   font-size: 22px;
   font-family: "BebasNeue";
   margin: 0 10px 0 0;
+  position: relative;
+  top: 2px;
 }
 
 .products__filtres__dropdown {
   height: 23px;
   width: 160px;
-  font-family: "BebasNeue";
-  font-size: 20px;
   border: 1px solid #242f6d;
   border-radius: 5px;
   display: -webkit-box;
@@ -1104,6 +1111,13 @@ header .navbar-light .navbar-toggler {
           justify-content: space-between;
   padding: 0 5px 0 20px;
   background-color: white;
+}
+
+.products__filtres__dropdown__text {
+  font-family: "Bebas-Neue-Book";
+  font-size: 20px;
+  position: relative;
+  top: 2px;
 }
 
 .products__filtres__dropdown__icon {

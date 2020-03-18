@@ -19,12 +19,12 @@
       font-size: 22px;
       font-family: "BebasNeue";
       margin: 0 10px 0 0;
+      position: relative;
+      top: 2px;
     }
     &__dropdown {
       height: 23px;
       width: 160px;
-      font-family: "BebasNeue";
-      font-size: 20px;
       border: 1px solid $base-color;
       border-radius: 5px;
       display: flex;
@@ -32,6 +32,12 @@
       justify-content: space-between;
       padding: 0 5px 0 20px;
       background-color: white;
+      &__text {
+        font-family: "Bebas-Neue-Book";
+        font-size: 20px;
+        position: relative;
+        top: 2px;
+      }
       &__icon {
         height: 11px;
       }
