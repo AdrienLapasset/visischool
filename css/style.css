@@ -1215,7 +1215,7 @@ header .navbar-light .navbar-toggler {
 
 .products__hint {
   background-size: cover;
-  background-position: center top;
+  background-position: right top;
   padding: 0 40px 40px;
   height: calc(100% - 30px);
 }
@@ -1228,6 +1228,11 @@ header .navbar-light .navbar-toggler {
 .products__hint--certified {
   background-image: url("/assets/imgs/produits/titre-certifie.png");
   background-color: #01cc88;
+}
+
+.products__hint--mastere {
+  background-image: url("/assets/imgs/produits/mastere.png");
+  background-color: #ff2e63;
 }
 
 .products__hint__level {

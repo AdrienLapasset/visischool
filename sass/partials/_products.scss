@@ -124,7 +124,7 @@
 
   &__hint {
     background-size: cover;
-    background-position: center top;
+    background-position: right top;
     padding: 0 40px 40px;
     height: calc(100% - 30px);
 
@@ -136,6 +136,11 @@
     &--certified {
       background-image: url("/assets/imgs/produits/titre-certifie.png");
       background-color: $green;
+    }
+
+    &--mastere {
+      background-image: url("/assets/imgs/produits/mastere.png");
+      background-color: $pink;
     }
 
     &__level {
