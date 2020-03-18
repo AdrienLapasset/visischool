@@ -121,4 +121,30 @@
       border-left: 1px solid white;
     }
   }
+
+  &__bachelor-hint {
+    background: no-repeat url("/assets/imgs/produits/bachelor.png");
+    background-size: cover;
+    background-position: center top;
+    background-color: $yellow;
+    padding: 0 40px 40px;
+    height: calc(100% - 30px);
+
+    &__level {
+      padding: 15px;
+      width: max-content;
+      background-color: white;
+      margin-bottom: 10px;
+      & > * {
+        line-height: 30px;
+      }
+    }
+    &__headingTwo {
+      font-size: 42px;
+    }
+    &__text {
+      max-width: 270px;
+      margin-bottom: 20px;
+    }
+  }
 }

@@ -38,6 +38,7 @@
 .heading {
   font-family: "BebasNeue";
   color: #242f6d;
+  margin-bottom: 0;
 }
 
 .heading--one {
@@ -49,6 +50,15 @@
 p {
   margin: 0;
   line-height: normal;
+  font-family: "roboto", sans-serif;
+}
+
+.blue {
+  color: #242f6d;
+}
+
+.white {
+  color: white;
 }
 
 header {
@@ -1201,6 +1211,37 @@ header .navbar-light .navbar-toggler {
   color: white;
   font-family: "roboto";
   border-left: 1px solid white;
+}
+
+.products__bachelor-hint {
+  background: no-repeat url("/assets/imgs/produits/bachelor.png");
+  background-size: cover;
+  background-position: center top;
+  background-color: #ffb129;
+  padding: 0 40px 40px;
+  height: calc(100% - 30px);
+}
+
+.products__bachelor-hint__level {
+  padding: 15px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.products__bachelor-hint__level > * {
+  line-height: 30px;
+}
+
+.products__bachelor-hint__headingTwo {
+  font-size: 42px;
+}
+
+.products__bachelor-hint__text {
+  max-width: 270px;
+  margin-bottom: 20px;
 }
 
 .product-card {
