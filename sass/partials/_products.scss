@@ -97,4 +97,28 @@
       font-family: "roboto";
     }
   }
+  &__categories-hint {
+    display: flex;
+    background-color: $base-color;
+    margin-bottom: 30px;
+    padding: 25px 50px;
+
+    &__title-container {
+      background: no-repeat url("/assets/imgs/produits/multichannel.png");
+      background-position: center;
+      background-size: contain;
+      flex: 0 0 322px;
+      display: flex;
+    }
+    &__title {
+      margin: auto 0;
+    }
+    &__text {
+      margin-left: 40px;
+      padding: 20px 0 20px 40px;
+      color: white;
+      font-family: "roboto";
+      border-left: 1px solid white;
+    }
+  }
 }

@@ -59,4 +59,25 @@
       border-right: none;
     }
   }
+  .products__categories-hint {
+    background: no-repeat url("/assets/imgs/produits/multichannel.png");
+    background-position: center 50px;
+    background-color: $base-color;
+
+    flex-direction: column;
+    &__title-container {
+      background: none;
+      flex: auto;
+    }
+    &__title {
+      font-size: 40px;
+      margin-bottom: 10px;
+      line-height: 37px;
+    }
+    &__text {
+      padding: 0;
+      margin: 0;
+      border-left: none;
+    }
+  }
 }

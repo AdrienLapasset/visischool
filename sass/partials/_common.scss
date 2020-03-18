@@ -33,10 +33,11 @@
   &--one {
     font-size: 55px;
     color: white;
-    line-height: 45px;
+    line-height: 55px;
   }
 }
 
 p {
   margin: 0;
+  line-height: normal;
 }
