@@ -5,4 +5,22 @@
   .job__content__point {
     padding-right: 200px;
   }
+  .heading.heading--one.small {
+    font-size: 45px;
+  }
+  .job__header__info {
+    margin-right: 40px;
+    flex: auto;
+    margin-bottom: 0;
+  }
+  .heading--one {
+    line-height: 55px;
+  }
+  .job__header {
+    height: 230px;
+    margin-bottom: -195px;
+  }
+  .job__header__content {
+    margin-bottom: 70px;
+  }
 }

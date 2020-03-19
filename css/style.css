@@ -58,11 +58,11 @@
 .heading--one {
   font-size: 55px;
   color: white;
-  line-height: 55px;
+  line-height: 30px;
 }
 
 .heading--one.small {
-  font-size: 45px;
+  font-size: 30px;
 }
 
 .heading--three {
@@ -1488,8 +1488,8 @@ header .navbar-light .navbar-toggler {
   background: no-repeat url("/assets/imgs/job/job-header.png");
   background-size: cover;
   background-position: center;
-  height: 230px;
-  margin-bottom: -200px;
+  height: 250px;
+  margin-bottom: -210px;
 }
 
 .job__header .heading--one {
@@ -1497,6 +1497,10 @@ header .navbar-light .navbar-toggler {
 }
 
 .job__header__info {
+  margin-bottom: 5px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1505,7 +1509,6 @@ header .navbar-light .navbar-toggler {
       -ms-flex-align: center;
           align-items: center;
   font-size: 18px;
-  margin-right: 40px;
 }
 
 .job__header__info__img {
@@ -1513,22 +1516,22 @@ header .navbar-light .navbar-toggler {
 }
 
 .job__header__content {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 .job__about {
   background-color: #e9eaef;
-  padding: 30px 30px 10px;
+  padding: 30px;
 }
 
 .job__about__btn {
+  padding: 0 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
   font-size: 29px;
   margin-top: 20px;
   height: auto;
@@ -1575,6 +1578,26 @@ header .navbar-light .navbar-toggler {
   }
   .job__content__point {
     padding-right: 200px;
+  }
+  .heading.heading--one.small {
+    font-size: 45px;
+  }
+  .job__header__info {
+    margin-right: 40px;
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    margin-bottom: 0;
+  }
+  .heading--one {
+    line-height: 55px;
+  }
+  .job__header {
+    height: 230px;
+    margin-bottom: -195px;
+  }
+  .job__header__content {
+    margin-bottom: 70px;
   }
 }
 
