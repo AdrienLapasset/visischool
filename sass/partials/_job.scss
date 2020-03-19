@@ -1,0 +1,65 @@
+.job {
+  &__header {
+    margin-top: 10px;
+    padding-top: 40px;
+    background: no-repeat url("/assets/imgs/job/job-header.png");
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+    margin-bottom: -200px;
+    .heading--one {
+      margin: 30px 0 15px;
+    }
+    &__info {
+      color: white;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      margin-right: 40px;
+      &__img {
+        margin-right: 10px;
+      }
+    }
+    &__content {
+      margin-bottom: 70px;
+    }
+  }
+  &__about {
+    background-color: $grey;
+    padding: 30px 30px 10px;
+    &__btn {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-size: 29px;
+      margin-top: 20px;
+      height: auto;
+      &__text {
+        position: relative;
+        top: 2px;
+      }
+    }
+    &__separator {
+      border-color: $base-color;
+      margin: 30px -30px;
+    }
+  }
+  &__content {
+    color: $base-color;
+    p {
+      margin-bottom: 20px;
+    }
+    &__point {
+      display: flex;
+      &:before {
+        content: url("/assets/icons/arrow-green.png");
+        margin-right: 15px;
+      }
+    }
+    &__separator {
+      border-color: #e9eaef;
+      border-width: 4px;
+      margin: 60px 0 30px;
+    }
+  }
+}

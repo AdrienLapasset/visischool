@@ -27,11 +27,17 @@
   height: 35px;
   padding: 0 10px;
   border: none;
-
+  color: $base-color;
   &--primary {
-    color: $base-color;
     &:hover {
-      background: #fff;
+      background: white;
+    }
+  }
+  &--secondary {
+    color: white;
+    background-color: $pink;
+    &:hover {
+      // background: #fff;
     }
   }
 }
@@ -41,17 +47,32 @@
   color: $base-color;
   margin-bottom: 0;
   line-height: 40px;
+  &.small {
+    font-size: 32px;
+  }
   &--one {
     font-size: 55px;
     color: white;
     line-height: 55px;
+    &.small {
+      font-size: 45px;
+    }
+  }
+  &--three {
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    top: 1px;
   }
 }
 
 p {
   margin: 0;
   line-height: normal;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  &.small {
+    font-size: 14px;
+  }
 }
 
 .blue {
@@ -59,4 +80,7 @@ p {
 }
 .white {
   color: white;
+}
+b {
+  font-weight: 700;
 }

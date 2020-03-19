@@ -32,14 +32,16 @@
   height: 35px;
   padding: 0 10px;
   border: none;
-}
-
-.button--primary {
   color: #242f6d;
 }
 
 .button--primary:hover {
-  background: #fff;
+  background: white;
+}
+
+.button--secondary {
+  color: white;
+  background-color: #ff2e63;
 }
 
 .heading {
@@ -49,16 +51,35 @@
   line-height: 40px;
 }
 
+.heading.small {
+  font-size: 32px;
+}
+
 .heading--one {
   font-size: 55px;
   color: white;
   line-height: 55px;
 }
 
+.heading--one.small {
+  font-size: 45px;
+}
+
+.heading--three {
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  top: 1px;
+}
+
 p {
   margin: 0;
   line-height: normal;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+p.small {
+  font-size: 14px;
 }
 
 .blue {
@@ -67,6 +88,10 @@ p {
 
 .white {
   color: white;
+}
+
+b {
+  font-weight: 700;
 }
 
 header {
@@ -339,7 +364,6 @@ header .navbar-light .navbar-toggler {
 .btn-candidature-en-ligne-une-ligne {
   color: #fff;
   background: #ff2e63;
-  color: #fff;
 }
 
 .btn-candidature-en-ligne-une-ligne span {
@@ -1458,9 +1482,99 @@ header .navbar-light .navbar-toggler {
           flex: 0 0 50%;
 }
 
+.job__header {
+  margin-top: 10px;
+  padding-top: 40px;
+  background: no-repeat url("/assets/imgs/job/job-header.png");
+  background-size: cover;
+  background-position: center;
+  height: 230px;
+  margin-bottom: -200px;
+}
+
+.job__header .heading--one {
+  margin: 30px 0 15px;
+}
+
+.job__header__info {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+.job__header__info__img {
+  margin-right: 10px;
+}
+
+.job__header__content {
+  margin-bottom: 70px;
+}
+
+.job__about {
+  background-color: #e9eaef;
+  padding: 30px 30px 10px;
+}
+
+.job__about__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  font-size: 29px;
+  margin-top: 20px;
+  height: auto;
+}
+
+.job__about__btn__text {
+  position: relative;
+  top: 2px;
+}
+
+.job__about__separator {
+  border-color: #242f6d;
+  margin: 30px -30px;
+}
+
+.job__content {
+  color: #242f6d;
+}
+
+.job__content p {
+  margin-bottom: 20px;
+}
+
+.job__content__point {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.job__content__point:before {
+  content: url("/assets/icons/arrow-green.png");
+  margin-right: 15px;
+}
+
+.job__content__separator {
+  border-color: #e9eaef;
+  border-width: 4px;
+  margin: 60px 0 30px;
+}
+
 @media (min-width: 1200px) {
   .products__point {
     line-height: 30px;
+  }
+  .job__content__point {
+    padding-right: 200px;
   }
 }
 
