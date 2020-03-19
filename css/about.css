@@ -1,0 +1,13 @@
+.about__header {
+  margin-top: 10px;
+  padding-top: 40px;
+  height: 195px;
+  background: no-repeat url("/assets/imgs/about/header-about.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.about__header .heading--one {
+  margin: 30px 0 0;
+}
+/*# sourceMappingURL=about.css.map */
