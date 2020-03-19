@@ -46,6 +46,7 @@
   font-family: "BebasNeue";
   color: #242f6d;
   margin-bottom: 0;
+  line-height: 40px;
 }
 
 .heading--one {
@@ -1383,6 +1384,7 @@ header .navbar-light .navbar-toggler {
   background-size: cover;
   background-position: center;
   text-align: center;
+  margin-bottom: -120px;
 }
 
 .about__header .heading--one {
@@ -1393,6 +1395,55 @@ header .navbar-light .navbar-toggler {
   color: white;
   margin-bottom: 10px;
   padding: 0 100px;
+}
+
+.about__hint {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.about__hint > * {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.about__hint__text {
+  padding: 60px 40px;
+  background-color: #ff2e63;
+}
+
+.about__hint__text__small {
+  font-size: 12px;
+  color: white;
+}
+
+.about__hint__img {
+  background-image: url("/assets/imgs/about/hint.png");
+  background-size: cover;
+  background-position: top center;
+}
+
+.about__alternance {
+  background-image: url("/assets/imgs/about/alternance-bg.png");
+  background-position: center;
+  background-size: cover;
+  padding: 40px 0 60px;
+  margin-bottom: 30px;
+}
+
+.about__alternance__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__alternance__container > * {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
 }
 
 @media (min-width: 1200px) {
@@ -1535,6 +1586,12 @@ header .navbar-light .navbar-toggler {
     margin: 0;
     border-left: none;
   }
+  .about__hint__img {
+    height: 300px;
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -1617,6 +1674,12 @@ header .navbar-light .navbar-toggler {
     padding: 0;
     margin: 0;
     border-left: none;
+  }
+  .about__hint__img {
+    height: 300px;
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
   }
 }
 
@@ -1716,6 +1779,12 @@ header .navbar-light .navbar-toggler {
     padding: 0;
     margin: 0;
     border-left: none;
+  }
+  .about__hint__img {
+    height: 300px;
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
   }
 }
 
