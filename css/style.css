@@ -1426,12 +1426,24 @@ header .navbar-light .navbar-toggler {
   background-position: top center;
 }
 
+.about__section {
+  margin-bottom: 80px;
+}
+
+.about__section > * {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
 .about__alternance {
   background-image: url("/assets/imgs/about/alternance-bg.png");
   background-position: center;
   background-size: cover;
   padding: 40px 0 60px;
   margin-bottom: 30px;
+  position: relative;
+  top: -30px;
 }
 
 .about__alternance__container {
@@ -1592,6 +1604,9 @@ header .navbar-light .navbar-toggler {
         -ms-flex: auto;
             flex: auto;
   }
+  .about__header__text {
+    padding: 0;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -1680,6 +1695,12 @@ header .navbar-light .navbar-toggler {
     -webkit-box-flex: 1;
         -ms-flex: auto;
             flex: auto;
+  }
+  .about__header__text {
+    padding: 0;
+  }
+  .about__header {
+    margin-bottom: -60px;
   }
 }
 
@@ -1785,6 +1806,13 @@ header .navbar-light .navbar-toggler {
     -webkit-box-flex: 1;
         -ms-flex: auto;
             flex: auto;
+  }
+  .about__header__text {
+    padding: 0;
+  }
+  .about__header {
+    margin-bottom: -0;
+    height: 670px;
   }
 }
 
