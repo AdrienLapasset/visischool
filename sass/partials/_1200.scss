@@ -23,4 +23,13 @@
   .job__header__content {
     margin-bottom: 70px;
   }
+  .alternance__contracts__table__col {
+    &:last-child {
+      & > *:not(.alternance__contracts__table__header) {
+        border: solid 1px #b1b1b1;
+        border-top: none;
+        border-left: none;
+      }
+    }
+  }
 }

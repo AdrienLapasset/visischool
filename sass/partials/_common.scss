@@ -82,9 +82,17 @@ p {
 .blue {
   color: $base-color;
 }
+
 .white {
   color: white;
 }
+
 b {
   font-weight: 700;
+}
+
+.left-container-shape {
+  position: absolute;
+  top: 40px;
+  left: -160px;
 }

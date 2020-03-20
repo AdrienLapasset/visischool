@@ -1,0 +1,65 @@
+.alternance {
+  &__header {
+    margin-top: 10px;
+    padding: 40px 0;
+    min-height: 260px;
+    background: no-repeat url("/assets/imgs/alternance/header-alternance.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    .heading--one {
+      margin: 20px 0 15px;
+    }
+    &__text {
+      color: white;
+      margin-bottom: 10px;
+    }
+  }
+  &__why {
+    margin: 50px 0 40px;
+    & > * {
+      color: $base-color;
+      margin-bottom: 20px;
+    }
+  }
+  &__contracts {
+    margin: 40px 0 0;
+    padding: 20px 0 50px;
+    background-image: url("/assets/imgs/alternance/contracts-bg.png");
+    background-size: cover;
+    &__table {
+      display: flex;
+      &__header {
+        background-color: $base-color;
+        color: white;
+        font-family: "BebasNeueRegular";
+        font-size: 27px;
+        line-height: 45px;
+        padding: 5px 25px 0;
+        border: solid 1px $base-color;
+      }
+      &__col {
+        flex: 0 0 50%;
+        & > *:not(.alternance__contracts__table__header) {
+          font-family: "Roboto", sans-serif;
+          color: $base-color;
+          padding: 25px;
+          line-height: 22px;
+          flex-grow: 1;
+        }
+        &:first-child {
+          & > *:not(.alternance__contracts__table__header) {
+            border: solid 1px #b1b1b1;
+            border-top: none;
+          }
+        }
+        &:last-child {
+          & > *:not(.alternance__contracts__table__header) {
+            border: solid 1px #b1b1b1;
+            border-top: none;
+          }
+        }
+      }
+    }
+  }
+}
