@@ -48,7 +48,7 @@
   font-family: "BebasNeue";
   color: #242f6d;
   margin-bottom: 0;
-  line-height: 40px;
+  line-height: 55px;
 }
 
 .heading.small {
@@ -58,11 +58,16 @@
 .heading--one {
   font-size: 55px;
   color: white;
-  line-height: 30px;
 }
 
 .heading--one.small {
+  line-height: 30px;
   font-size: 30px;
+}
+
+.heading--two {
+  font-size: 50px;
+  line-height: 45px;
 }
 
 .heading--three {
@@ -1402,8 +1407,8 @@ header .navbar-light .navbar-toggler {
 
 .about__header {
   margin-top: 10px;
-  padding-top: 40px;
-  height: 500px;
+  padding: 40px 0;
+  min-height: 500px;
   background: no-repeat url("/assets/imgs/about/header-about.png");
   background-size: cover;
   background-position: center;
@@ -1948,8 +1953,7 @@ header .navbar-light .navbar-toggler {
     padding: 0;
   }
   .about__header {
-    margin-bottom: -0;
-    height: 670px;
+    margin-bottom: 0;
   }
 }
 

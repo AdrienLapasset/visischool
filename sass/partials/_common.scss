@@ -46,17 +46,21 @@
   font-family: "BebasNeue";
   color: $base-color;
   margin-bottom: 0;
-  line-height: 40px;
+  line-height: 55px;
   &.small {
     font-size: 32px;
   }
   &--one {
     font-size: 55px;
     color: white;
-    line-height: 30px;
     &.small {
+      line-height: 30px;
       font-size: 30px;
     }
+  }
+  &--two {
+    font-size: 50px;
+    line-height: 45px;
   }
   &--three {
     font-size: 20px;
