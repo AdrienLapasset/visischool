@@ -1622,6 +1622,7 @@ footer .footer-menu-foot li a:hover {
 .product__numbers__text {
   font-family: "BebasNeue";
   font-size: 23px;
+  line-height: 23px;
 }
 
 .product__numbers__small {
