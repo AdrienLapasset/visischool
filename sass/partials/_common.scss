@@ -28,6 +28,7 @@
   padding: 0 10px;
   border: none;
   color: $base-color;
+  background: white;
   &--primary {
     &:hover {
       background: white;
@@ -36,8 +37,16 @@
   &--secondary {
     color: white;
     background-color: $pink;
-    &:hover {
-      // background: #fff;
+  }
+  &--big {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 29px;
+    height: auto;
+    & > * {
+      position: relative;
+      top: 2px;
     }
   }
 }
@@ -46,12 +55,13 @@
   font-family: "BebasNeue";
   color: $base-color;
   margin-bottom: 0;
-  line-height: 55px;
   &.small {
     font-size: 32px;
+    line-height: 30px;
   }
   &--one {
     font-size: 55px;
+    line-height: 55px;
     color: white;
     &.small {
       line-height: 30px;
@@ -71,6 +81,7 @@
 }
 
 p {
+  color: $base-color;
   margin: 0;
   line-height: normal;
   font-family: "Roboto", sans-serif;
@@ -95,4 +106,12 @@ b {
   position: absolute;
   top: 40px;
   left: -160px;
+}
+
+a {
+  color: $base-color;
+  text-decoration: underline;
+  &:hover {
+    color: $base-color;
+  }
 }

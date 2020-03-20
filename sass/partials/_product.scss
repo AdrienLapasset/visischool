@@ -1,0 +1,72 @@
+.product {
+  &__header {
+    margin-top: 10px;
+    padding-top: 40px;
+    min-height: 195px;
+    background: no-repeat url("/assets/imgs/produit/bandeau.png");
+    background-size: cover;
+    background-position: center;
+    .heading--one {
+      margin: 30px 0 0;
+    }
+    &__photo {
+      border: 3px solid $base-color;
+      width: 100px;
+      height: 100px;
+      border-radius: 100px;
+      object-fit: cover;
+      object-position: right;
+      margin-right: 20px;
+    }
+    &__category {
+      font-size: 25px;
+    }
+    &__job {
+      color: white;
+      font-size: 45px;
+    }
+  }
+  &__btn-block {
+    background-color: $base-color;
+    padding: 20px;
+  }
+  &__separator {
+    border-color: #e9eaef;
+    border-width: 4px;
+    margin: 30px 0;
+  }
+  &__goals {
+    display: flex;
+    font-weight: 700;
+    margin-bottom: 10px;
+    &:before {
+      content: url("/assets/icons/chevron.png");
+      margin-right: 10px;
+    }
+  }
+  &__numbers {
+    margin-top: 20px;
+    background-color: $grey;
+    padding: 20px;
+    &__icon-wrapper {
+      width: 40px;
+    }
+    &__icon {
+      max-width: 30px;
+      max-height: 30px;
+      object-fit: contain;
+    }
+    &__text {
+      font-family: "BebasNeue";
+      font-size: 23px;
+    }
+    &__small {
+      font-size: 14px;
+    }
+  }
+  &__why {
+    margin-top: 20px;
+    background-color: $grey;
+    padding: 20px;
+  }
+}
