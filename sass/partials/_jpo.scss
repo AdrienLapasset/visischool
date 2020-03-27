@@ -1,0 +1,83 @@
+.jpo {
+  &__header {
+    margin-top: 10px;
+    padding: 40px 0;
+    min-height: 260px;
+    background: no-repeat url("/assets/imgs/jpo/jpo-header.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    .heading--one {
+      margin: 20px 0 15px;
+    }
+    &__text {
+      color: white;
+      margin-bottom: 10px;
+    }
+  }
+
+  .heading--two {
+    margin-top: 60px;
+  }
+
+  &__events {
+    margin-top: 20px;
+    background-color: $base-color;
+    padding: 20px;
+    color: white;
+
+    &--past {
+      background-color: $block-bg;
+      color: $base-color;
+      margin-bottom: 50px;
+
+      .jpo__events__item {
+        border-color: $base-color;
+        & * {
+          color: $base-color;
+        }
+      }
+    }
+
+    &__item {
+      border: 1px solid white;
+      padding: 20px;
+      display: flex;
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+      &__icon {
+        align-self: center;
+        margin: 0 20px;
+      }
+      &__date {
+        font-size: 30px;
+        font-family: "BebasNeue";
+        margin-bottom: 0;
+        line-height: 25px;
+      }
+      &__hours {
+        text-transform: uppercase;
+        color: white;
+        font-size: 12px;
+      }
+      &__description {
+        color: white;
+        margin-left: 40px;
+      }
+      &__btn {
+        align-self: center;
+        margin-left: auto;
+        color: white;
+        background-color: $pink;
+        font-size: 20px;
+        padding: 3px 20px 3px 8px;
+        &__icon {
+          margin-right: 7px;
+          position: relative;
+          top: -1px;
+        }
+      }
+    }
+  }
+}

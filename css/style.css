@@ -89,6 +89,10 @@
   line-height: 45px;
 }
 
+.heading--two.small {
+  font-size: 45px;
+}
+
 .heading--three {
   font-size: 20px;
   line-height: 30px;
@@ -1988,6 +1992,104 @@ footer .footer-menu-foot li a:hover {
   border-top: none;
 }
 
+.jpo__header {
+  margin-top: 10px;
+  padding: 40px 0;
+  min-height: 260px;
+  background: no-repeat url("/assets/imgs/jpo/jpo-header.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.jpo__header .heading--one {
+  margin: 20px 0 15px;
+}
+
+.jpo__header__text {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.jpo .heading--two {
+  margin-top: 60px;
+}
+
+.jpo__events {
+  margin-top: 20px;
+  background-color: #242f6d;
+  padding: 20px;
+  color: white;
+}
+
+.jpo__events--past {
+  background-color: #ecedf1;
+  color: #242f6d;
+  margin-bottom: 50px;
+}
+
+.jpo__events--past .jpo__events__item {
+  border-color: #242f6d;
+}
+
+.jpo__events--past .jpo__events__item * {
+  color: #242f6d;
+}
+
+.jpo__events__item {
+  border: 1px solid white;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jpo__events__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.jpo__events__item__icon {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 0 20px;
+}
+
+.jpo__events__item__date {
+  font-size: 30px;
+  font-family: "BebasNeue";
+  margin-bottom: 0;
+  line-height: 25px;
+}
+
+.jpo__events__item__hours {
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+
+.jpo__events__item__description {
+  color: white;
+  margin-left: 40px;
+}
+
+.jpo__events__item__btn {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: auto;
+  color: white;
+  background-color: #ff2e63;
+  font-size: 20px;
+  padding: 3px 20px 3px 8px;
+}
+
+.jpo__events__item__btn__icon {
+  margin-right: 7px;
+  position: relative;
+  top: -1px;
+}
+
 @media (min-width: 1200px) and (max-width: 1620px) {
   .section-pourquoi-passer-diplome .img-visi-premiere,
   .section-pourquoi-passer-diplome .img-pourquoi-diplome,
@@ -2370,6 +2472,25 @@ footer .footer-menu-foot li a:hover {
   .about__header__text {
     padding: 0;
   }
+  .jpo__events__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .jpo__events__item__icon {
+    margin-bottom: 20px;
+  }
+  .jpo__events__item__description {
+    margin: 30px 0;
+  }
+  .jpo__events__item__btn {
+    margin-left: unset;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -2464,6 +2585,25 @@ footer .footer-menu-foot li a:hover {
   }
   .about__header {
     margin-bottom: -60px;
+  }
+  .jpo__events__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .jpo__events__item__icon {
+    margin-bottom: 20px;
+  }
+  .jpo__events__item__description {
+    margin: 30px 0;
+  }
+  .jpo__events__item__btn {
+    margin-left: unset;
   }
 }
 
@@ -2575,6 +2715,25 @@ footer .footer-menu-foot li a:hover {
   }
   .about__header {
     margin-bottom: 0;
+  }
+  .jpo__events__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .jpo__events__item__icon {
+    margin-bottom: 20px;
+  }
+  .jpo__events__item__description {
+    margin: 30px 0;
+  }
+  .jpo__events__item__btn {
+    margin-left: unset;
   }
 }
 /*# sourceMappingURL=style.css.map */
