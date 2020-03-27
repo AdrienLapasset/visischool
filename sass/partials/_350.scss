@@ -118,6 +118,9 @@
 
   .modale {
     background-image: url("/assets/imgs/modal/bg-mobile.png");
-    padding-bottom: 110px;
+    padding: 30px 15px 50px;
+    &__btn {
+      margin-top: 0;
+    }
   }
 }

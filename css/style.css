@@ -693,6 +693,7 @@ footer .footer-menu-foot li a:hover {
 .modale__title {
   color: #ff2e63;
   margin-left: 20px;
+  font-size: 35px;
 }
 
 .modale__btn {
@@ -2571,6 +2572,9 @@ footer .footer-menu-foot li a:hover {
   .dropdown-menu .dropdown-item {
     font-size: 16px !important;
   }
+  .modale__title {
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -2851,7 +2855,7 @@ footer .footer-menu-foot li a:hover {
   }
   .modale {
     background-image: url("/assets/imgs/modal/bg-mobile.png");
-    padding-bottom: 110px;
+    padding: 40px 15px 100px;
   }
 }
 
@@ -2985,7 +2989,10 @@ footer .footer-menu-foot li a:hover {
   }
   .modale {
     background-image: url("/assets/imgs/modal/bg-mobile.png");
-    padding-bottom: 110px;
+    padding: 30px 15px 50px;
+  }
+  .modale__btn {
+    margin-top: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
