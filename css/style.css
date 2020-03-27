@@ -138,16 +138,19 @@ a:hover {
   color: #242f6d;
 }
 
-.form input {
+.form input,
+.form textarea {
   font-family: "Roboto", sans-serif;
   border: 1px solid #242f6d;
   border-radius: 5px;
   padding: 10px 20px;
   width: 100%;
   margin-bottom: 10px;
+  resize: none;
 }
 
-.form input.withIcon {
+.form input.withIcon,
+.form textarea.withIcon {
   padding-left: 45px;
 }
 
@@ -2152,6 +2155,80 @@ footer .footer-menu-foot li a:hover {
 }
 
 .event__form__btn img {
+  position: relative;
+  top: -1px;
+  margin-right: 10px;
+}
+
+.contact__header {
+  margin-top: 10px;
+  padding: 30px 0;
+  min-height: 260px;
+  background: no-repeat url("/assets/imgs/event/event-header.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.contact__header .heading--one {
+  margin: 30px 0 15px;
+}
+
+.contact__header__text {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.contact__person {
+  background-color: #ecedf1;
+  color: #242f6d;
+  font-family: "BebasNeue";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.contact__person__name {
+  line-height: 30px;
+  font-size: 28px;
+}
+
+.contact__person__post {
+  font-family: "Bebas-Neue-Book";
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.contact__person__number {
+  line-height: 30px;
+  font-size: 24px;
+}
+
+.contact__form {
+  margin-top: 5px;
+  background-color: #ff2e63;
+  padding: 25px 20px;
+}
+
+.contact__form__title {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.contact__form__btn {
+  margin-top: 10px;
+  font-size: 25px;
+  color: white;
+  background-color: #242f6d;
+}
+
+.contact__form__btn img {
   position: relative;
   top: -1px;
   margin-right: 10px;
