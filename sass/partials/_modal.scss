@@ -1,0 +1,38 @@
+.modale {
+  background-color: $block-bg;
+  padding: 60px 80px 170px;
+  max-width: 900px;
+  background-image: url("/assets/imgs/modal/bg-desktop.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  &__container {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(black, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    color: $pink;
+    margin-left: 20px;
+  }
+  &__btn {
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: $pink;
+    img {
+      position: relative;
+      top: -1px;
+      margin-right: 10px;
+    }
+  }
+}

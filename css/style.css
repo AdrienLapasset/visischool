@@ -139,18 +139,20 @@ a:hover {
 }
 
 .form input,
-.form textarea {
+.form textarea,
+.form .dropdown-btn {
   font-family: "Roboto", sans-serif;
   border: 1px solid #242f6d;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   width: 100%;
   margin-bottom: 10px;
   resize: none;
 }
 
 .form input.withIcon,
-.form textarea.withIcon {
+.form textarea.withIcon,
+.form .dropdown-btn.withIcon {
   padding-left: 45px;
 }
 
@@ -161,6 +163,44 @@ a:hover {
 
 .form__icon--dropdown {
   right: 35px;
+}
+
+.form .dropdown.show .dropdown-btn {
+  background-color: #cacaca;
+  color: #242f6d;
+}
+
+.form .dropdown .dropdown-btn {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  color: #888888;
+}
+
+.form .dropdown .dropdown-menu {
+  border: 1px solid #242f6d;
+  border-radius: 0;
+  margin-top: 0;
+  width: 100%;
+  top: -1px;
+  max-height: 170px;
+  overflow-y: scroll;
+}
+
+.form .dropdown .dropdown-menu .dropdown-item {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #888888;
+}
+
+.form .dropdown .dropdown-menu .dropdown-item:hover {
+  color: white;
+  background-color: #ff2e63;
 }
 
 /* START FONT -------------------------------->> */
@@ -613,6 +653,53 @@ footer .footer-menu-foot li a:hover {
     flex: 0 0 20%;
     max-width: 20%;
   }
+}
+
+.modale {
+  background-color: #ecedf1;
+  padding: 60px 80px 170px;
+  max-width: 900px;
+  background-image: url("/assets/imgs/modal/bg-desktop.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.modale__container {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modale__title {
+  color: #ff2e63;
+  margin-left: 20px;
+}
+
+.modale__btn {
+  margin-top: 10px;
+  font-size: 25px;
+  color: white;
+  background-color: #ff2e63;
+}
+
+.modale__btn img {
+  position: relative;
+  top: -1px;
+  margin-right: 10px;
 }
 
 .btn {
@@ -2749,6 +2836,10 @@ footer .footer-menu-foot li a:hover {
   .jpo__events__item__btn {
     margin-left: unset;
   }
+  .modale {
+    background-image: url("/assets/imgs/modal/bg-mobile.png");
+    padding-bottom: 110px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -2878,6 +2969,10 @@ footer .footer-menu-foot li a:hover {
   }
   .jpo__events__item__btn {
     margin-left: unset;
+  }
+  .modale {
+    background-image: url("/assets/imgs/modal/bg-mobile.png");
+    padding-bottom: 110px;
   }
 }
 /*# sourceMappingURL=style.css.map */

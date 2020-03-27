@@ -174,7 +174,21 @@
             <h2 class="heading event__form__title">DEMANDE d’information</h2>
             <form class="form" action="">
               <img class="form__icon form__icon--dropdown" src="/assets/icons/triangle.png" alt="triangle">
-              <input type="text" placeholder="Vous êtes">
+              <div class="dropdown">
+                <button class="dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Vous êtes
+                  <img class="ml-auto" src="/assets/icons/triangle.png" alt="triangle">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
               <input type="text" placeholder="Votre prénom (requis)">
               <input type="text" placeholder="Votre nom (requis)">
               <img class="form__icon" src="/assets/icons/secured-letter.png" alt="email">
@@ -260,6 +274,7 @@
     <!--END FOOTER -->
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/3b976f6631.js" crossorigin="anonymous"></script>
 </body>
