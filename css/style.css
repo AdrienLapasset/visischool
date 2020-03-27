@@ -188,12 +188,11 @@ a:hover {
   margin-top: 0;
   width: 100%;
   top: -1px;
-  max-height: 170px;
-  overflow-y: scroll;
 }
 
 .form .dropdown .dropdown-menu .dropdown-item {
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
   text-decoration: none;
   color: #888888;
 }
@@ -663,6 +662,13 @@ footer .footer-menu-foot li a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
+  position: relative;
+}
+
+.modale__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 .modale__container {
@@ -2557,6 +2563,13 @@ footer .footer-menu-foot li a:hover {
     border: solid 1px #b1b1b1;
     border-top: none;
     border-left: none;
+  }
+  .dropdown-menu {
+    max-height: 170px;
+    overflow-y: scroll;
+  }
+  .dropdown-menu .dropdown-item {
+    font-size: 16px !important;
   }
 }
 

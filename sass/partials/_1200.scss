@@ -32,4 +32,11 @@
       }
     }
   }
+  .dropdown-menu {
+    max-height: 170px;
+    overflow-y: scroll;
+    .dropdown-item {
+      font-size: 16px !important;
+    }
+  }
 }

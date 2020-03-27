@@ -6,6 +6,13 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
+  position: relative;
+
+  &__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
 
   &__container {
     z-index: 1;
