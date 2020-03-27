@@ -118,3 +118,24 @@ a {
     color: $base-color;
   }
 }
+
+.form {
+  input {
+    font-family: "Roboto", sans-serif;
+    border: 1px solid $base-color;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    &.withIcon {
+      padding-left: 45px;
+    }
+  }
+  &__icon {
+    position: absolute;
+    padding: 15px;
+    &--dropdown {
+      right: 35px;
+    }
+  }
+}
