@@ -140,7 +140,7 @@ a:hover {
 
 .form input,
 .form textarea,
-.form .dropdown-btn {
+.form select {
   font-family: "Roboto", sans-serif;
   border: 1px solid #242f6d;
   border-radius: 5px;
@@ -152,7 +152,7 @@ a:hover {
 
 .form input.withIcon,
 .form textarea.withIcon,
-.form .dropdown-btn.withIcon {
+.form select.withIcon {
   padding-left: 45px;
 }
 
@@ -165,41 +165,13 @@ a:hover {
   right: 35px;
 }
 
-.form .dropdown.show .dropdown-btn {
-  background-color: #cacaca;
-  color: #242f6d;
-}
-
-.form .dropdown .dropdown-btn {
-  text-align: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.form .custom-select {
+  cursor: pointer;
+  height: 48px;
   background-color: white;
   color: #888888;
-}
-
-.form .dropdown .dropdown-menu {
-  border: 1px solid #242f6d;
-  border-radius: 0;
-  margin-top: 0;
-  width: 100%;
-  top: -1px;
-}
-
-.form .dropdown .dropdown-menu .dropdown-item {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  text-decoration: none;
-  color: #888888;
-}
-
-.form .dropdown .dropdown-menu .dropdown-item:hover {
-  color: white;
-  background-color: #ff2e63;
+  background-image: url("/assets/icons/triangle.png");
+  background-size: auto;
 }
 
 /* START FONT -------------------------------->> */
@@ -1471,13 +1443,17 @@ footer .footer-menu-foot li a:hover {
 
 .products__filtres__titre {
   font-size: 22px;
-  font-family: "BebasNeue";
   margin: 0 10px 0 0;
   position: relative;
   top: 2px;
+  font-family: "BebasNeue";
 }
 
-.products__filtres__dropdown {
+.products__filtres__select {
+  color: #242f6d;
+  background-image: url("/assets/icons/expand-arrow.png");
+  background-size: 18px;
+  background-position: 135px;
   height: 23px;
   width: 160px;
   border: 1px solid #242f6d;
@@ -1493,16 +1469,17 @@ footer .footer-menu-foot li a:hover {
           justify-content: space-between;
   padding: 0 5px 0 20px;
   background-color: white;
-}
-
-.products__filtres__dropdown__text {
   font-family: "Bebas-Neue-Book";
   font-size: 20px;
+  line-height: 26px;
+}
+
+.products__filtres__select__text {
   position: relative;
   top: 2px;
 }
 
-.products__filtres__dropdown__icon {
+.products__filtres__select__icon {
   height: 11px;
 }
 
@@ -2544,13 +2521,6 @@ footer .footer-menu-foot li a:hover {
     border: solid 1px #b1b1b1;
     border-top: none;
     border-left: none;
-  }
-  .dropdown-menu {
-    max-height: 170px;
-    overflow-y: scroll;
-  }
-  .dropdown-menu .dropdown-item {
-    font-size: 16px !important;
   }
   .modale__title {
     font-size: 40px;

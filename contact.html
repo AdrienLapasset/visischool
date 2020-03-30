@@ -173,22 +173,12 @@
           <div class="event__form">
             <h2 class="heading event__form__title">DEMANDE d’information</h2>
             <form class="form" action="">
-              <img class="form__icon form__icon--dropdown" src="/assets/icons/triangle.png" alt="triangle">
-              <div class="dropdown">
-                <button class="dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Vous êtes
-                  <img class="ml-auto" src="/assets/icons/triangle.png" alt="triangle">
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </div>
+              <select class="custom-select">
+                <option selected>Vous êtes</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
               <input type="text" placeholder="Votre prénom (requis)">
               <input type="text" placeholder="Votre nom (requis)">
               <img class="form__icon" src="/assets/icons/secured-letter.png" alt="email">

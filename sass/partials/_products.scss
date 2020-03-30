@@ -17,12 +17,16 @@
     height: 60px;
     &__titre {
       font-size: 22px;
-      font-family: "BebasNeue";
       margin: 0 10px 0 0;
       position: relative;
       top: 2px;
+      font-family: "BebasNeue";
     }
-    &__dropdown {
+    &__select {
+      color: $base-color;
+      background-image: url("/assets/icons/expand-arrow.png");
+      background-size: 18px;
+      background-position: 135px;
       height: 23px;
       width: 160px;
       border: 1px solid $base-color;
@@ -32,9 +36,11 @@
       justify-content: space-between;
       padding: 0 5px 0 20px;
       background-color: white;
+      font-family: "Bebas-Neue-Book";
+      font-size: 20px;
+      line-height: 26px;
+
       &__text {
-        font-family: "Bebas-Neue-Book";
-        font-size: 20px;
         position: relative;
         top: 2px;
       }
