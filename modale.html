@@ -57,7 +57,11 @@
             <div class="col-lg-12">
               <div class="telecharger-et-candidature">
                 <ul>
-                  <li><a href="#" title="Télécharger notre brochure" class="btn btn-telecharger-brochure"><i class="fas icon-telecharger-brochure" aria-hidden="true"></i><span>Télécharger<br />notre brochure</span></a></li>
+                  <li>
+                    <button type="button" href="#" data-toggle="modal" data-target="#telechargerBrochure" title="Télécharger notre brochure" class="btn btn-telecharger-brochure">
+                      <i class="fas icon-telecharger-brochure" aria-hidden="true"></i><span>Télécharger<br />notre brochure</span>
+                    </button>
+                  </li>
                   <li><a href="#" title="Candidature en ligne" class="btn btn-candidature-en-ligne"><i class="fas icon-candidature-en-ligne" aria-hidden="true"></i><span>Candidature<br />en ligne</span></a></li>
                 </ul>
               </div>
@@ -233,64 +237,68 @@
   </div>
 
   <!-- Start Modale -->
-  <div class="modale__container">
-    <div class="modale">
-      <img class="modale__close" src="/assets/icons/cross.png" alt="Fermer">
-      <div class="d-flex mb-sm-4 align-items-center">
-        <div>
-          <img src="/assets/icons/magazine-pink.png" alt="brochure">
+  <div class="modal fade" id="telechargerBrochure" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modale">
+          <img data-dismiss="modal" aria-label="Close" class="modale__close" src="/assets/icons/cross.png" alt="Fermer">
+          <div class="d-flex mb-sm-4 align-items-center">
+            <div>
+              <img src="/assets/icons/magazine-pink.png" alt="brochure">
+            </div>
+            <h1 class="heading modale__title">Télécharger notre BROCHURE</h1>
+          </div>
+          <form class="form" action="">
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" placeholder="Ton prénom (requis)">
+                <input type="text" placeholder="Ton age (requis)">
+                <img class="form__icon" src="/assets/icons/secured-letter.png" alt="diplome">
+                <input class="withIcon" type="text" placeholder="Ton e-mail (requis)">
+                <div class="dropdown">
+                  <button class="dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Ton niveau d’études actuel (requis)
+                    <img class="ml-auto" src="/assets/icons/triangle.png" alt="triangle">
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <input type="text" placeholder="Ton nom (requis)">
+                <div class="dropdown">
+                  <button class="dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img class="mr-2" src="/assets/icons/diploma-grey.png" alt="diplome">
+                    Etudes visées (requis)
+                    <img class="ml-auto" src="/assets/icons/triangle.png" alt="triangle">
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <img class="form__icon" src="/assets/icons/phonelink-ring.png" alt="diplome">
+                <input class="withIcon" type="text" placeholder="Ton numéro de téléphone (requis)">
+              </div>
+            </div>
+            <button class="button modale__btn">
+              <img src="/assets/icons/sent.png" alt="GO">
+              Postuler</button>
+          </form>
         </div>
-        <h1 class="heading modale__title">Télécharger notre BROCHURE</h1>
       </div>
-      <form class="form" action="">
-        <div class="row">
-          <div class="col-lg-6">
-            <input type="text" placeholder="Ton prénom (requis)">
-            <input type="text" placeholder="Ton age (requis)">
-            <img class="form__icon" src="/assets/icons/secured-letter.png" alt="diplome">
-            <input class="withIcon" type="text" placeholder="Ton e-mail (requis)">
-            <div class="dropdown">
-              <button class="dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Ton niveau d’études actuel (requis)
-                <img class="ml-auto" src="/assets/icons/triangle.png" alt="triangle">
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <input type="text" placeholder="Ton nom (requis)">
-            <div class="dropdown">
-              <button class="dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img class="mr-2" src="/assets/icons/diploma-grey.png" alt="diplome">
-                Etudes visées (requis)
-                <img class="ml-auto" src="/assets/icons/triangle.png" alt="triangle">
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </div>
-            <img class="form__icon" src="/assets/icons/phonelink-ring.png" alt="diplome">
-            <input class="withIcon" type="text" placeholder="Ton numéro de téléphone (requis)">
-          </div>
-        </div>
-        <button class="button modale__btn">
-          <img src="/assets/icons/sent.png" alt="GO">
-          Postuler</button>
-      </form>
     </div>
   </div>
   <!-- End Modale -->
