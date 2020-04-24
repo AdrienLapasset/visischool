@@ -2052,6 +2052,7 @@ footer .footer-menu-foot li a:hover {
   padding: 120px 0 50px 0;
   background-image: url("/assets/imgs/alternance/shape.png");
   background-size: cover;
+  background-position: center;
 }
 
 .alternance__course {
@@ -2059,7 +2060,7 @@ footer .footer-menu-foot li a:hover {
 }
 
 .alternance__contracts {
-  padding: 20px 0 50px;
+  padding: 50px 0 50px;
   background-image: url("/assets/imgs/alternance/contracts-bg.png");
   background-size: cover;
   background-position: top center;
@@ -2116,6 +2117,15 @@ footer .footer-menu-foot li a:hover {
 .alternance__contracts ul {
   margin: 0;
   padding-left: 20px;
+}
+
+.alternance__recruit {
+  margin-top: 70px;
+}
+
+.alternance__recruit button img {
+  position: relative;
+  top: 0;
 }
 
 .jpo__header {
