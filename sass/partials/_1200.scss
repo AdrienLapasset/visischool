@@ -37,4 +37,17 @@
       font-size: 40px;
     }
   }
+  .alternance__contracts__table__col {
+    * {
+      &:nth-child(4) {
+        height: 120px;
+      }
+      &:nth-child(7) {
+        height: 140px;
+      }
+      &:nth-child(8) {
+        height: 160px;
+      }
+    }
+  }
 }
