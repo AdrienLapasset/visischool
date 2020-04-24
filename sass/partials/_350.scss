@@ -123,4 +123,13 @@
       margin-top: 0;
     }
   }
+  .alternance {
+    &__points {
+      padding: 180px 0 80px;
+    }
+    &__job {
+      margin-top: -180px;
+      padding: 180px 0 50px 0;
+    }
+  }
 }

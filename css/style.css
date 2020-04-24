@@ -2019,6 +2019,38 @@ footer .footer-menu-foot li a:hover {
   margin-bottom: 20px;
 }
 
+.alternance__points {
+  margin-top: -60px;
+  background-image: url("/assets/imgs/alternance/points-forts.png");
+  background-size: cover;
+  padding: 150px 0;
+  background-position: center;
+}
+
+.alternance__points__text-container {
+  height: 100%;
+  border-left: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.alternance__points__text {
+  padding-left: 40px;
+  color: white;
+}
+
+.alternance__job {
+  margin-top: -150px;
+  padding: 120px 0 50px 0;
+  background-image: url("/assets/imgs/alternance/shape.png");
+  background-size: cover;
+  background-position: center;
+}
+
 .alternance__contracts {
   margin: 40px 0 0;
   padding: 20px 0 50px;
@@ -2807,6 +2839,12 @@ footer .footer-menu-foot li a:hover {
     background-image: url("/assets/imgs/modal/bg-mobile.png");
     padding: 40px 15px 100px;
   }
+  .alternance__points {
+    padding: 180px 0 80px;
+  }
+  .alternance__job {
+    padding: 165px 0 50px 0;
+  }
 }
 
 @media (max-width: 575px) {
@@ -2943,6 +2981,13 @@ footer .footer-menu-foot li a:hover {
   }
   .modale__btn {
     margin-top: 0;
+  }
+  .alternance__points {
+    padding: 180px 0 80px;
+  }
+  .alternance__job {
+    margin-top: -180px;
+    padding: 180px 0 50px 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

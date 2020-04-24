@@ -22,6 +22,31 @@
       margin-bottom: 20px;
     }
   }
+  &__points {
+    margin-top: -60px;
+
+    background-image: url("/assets/imgs/alternance/points-forts.png");
+    background-size: cover;
+    padding: 150px 0;
+    background-position: center;
+    &__text-container {
+      height: 100%;
+      border-left: 1px solid white;
+      display: flex;
+      align-items: center;
+    }
+    &__text {
+      padding-left: 40px;
+      color: white;
+    }
+  }
+  &__job {
+    margin-top: -150px;
+    padding: 120px 0 50px 0;
+    background-image: url("/assets/imgs/alternance/shape.png");
+    background-size: cover;
+    background-position: center;
+  }
   &__contracts {
     margin: 40px 0 0;
     padding: 20px 0 50px;
