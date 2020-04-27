@@ -38,6 +38,10 @@
     color: white;
     background-color: $pink;
   }
+  &--blue {
+    color: white;
+    background-color: $base-color;
+  }
   &--big {
     padding: 0 20px;
     display: flex;

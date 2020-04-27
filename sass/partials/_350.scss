@@ -132,4 +132,12 @@
       padding: 180px 0 50px 0;
     }
   }
+  .section-actualite {
+    .bloc-actualite__body {
+      min-height: 0px !important;
+    }
+    .button--blue {
+      font-size: 25px !important;
+    }
+  }
 }

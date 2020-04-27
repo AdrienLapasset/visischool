@@ -45,6 +45,11 @@
   background-color: #ff2e63;
 }
 
+.button--blue {
+  color: white;
+  background-color: #242f6d;
+}
+
 .button--big {
   padding: 0 20px;
   display: -webkit-box;
@@ -1303,7 +1308,61 @@ footer .footer-menu-foot li a:hover {
   margin: auto;
 }
 
+#home .section-actualite {
+  background-image: url("/assets/imgs/home/bg.png");
+  background-size: cover;
+  padding: 120px 0 50px;
+}
+
+#home .section-actualite .button--blue {
+  font-size: 32px;
+  padding: 0 15px;
+  height: 43px;
+}
+
+#home .section-actualite .bloc-actualite {
+  background-color: white;
+}
+
+#home .section-actualite .bloc-actualite__img {
+  background-size: cover;
+  background-position: center;
+  height: 125px;
+  width: 100%;
+}
+
+#home .section-actualite .bloc-actualite__body {
+  padding: 30px;
+  min-height: 375px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#home .section-actualite .bloc-actualite__body h3 {
+  text-align: left;
+  font-size: 30px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+#home .section-actualite .bloc-actualite__body p {
+  margin-bottom: 20px;
+}
+
+#home .section-actualite .bloc-actualite__body .button--secondary {
+  margin-top: auto;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: 25px;
+}
+
 #home .section-temoignages {
+  padding-top: 50px;
   background: #ff2e63;
 }
 
@@ -2645,6 +2704,9 @@ footer .footer-menu-foot li a:hover {
   .products__point:not(:last-child) {
     border-right: none;
   }
+  .bloc-actualite__body {
+    min-height: 400px !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2757,6 +2819,9 @@ footer .footer-menu-foot li a:hover {
   }
   .jpo__events__item__btn {
     margin-left: unset;
+  }
+  .bloc-actualite__body {
+    min-height: 0px !important;
   }
 }
 
@@ -2881,6 +2946,9 @@ footer .footer-menu-foot li a:hover {
   }
   .alternance__job {
     padding: 165px 0 50px 0;
+  }
+  .bloc-actualite__body {
+    min-height: 0px !important;
   }
 }
 
@@ -3025,6 +3093,12 @@ footer .footer-menu-foot li a:hover {
   .alternance__job {
     margin-top: -180px;
     padding: 180px 0 50px 0;
+  }
+  .section-actualite .bloc-actualite__body {
+    min-height: 0px !important;
+  }
+  .section-actualite .button--blue {
+    font-size: 25px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
